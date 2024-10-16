@@ -1,3 +1,6 @@
+Hello world!
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,3 +17,107 @@
     <button onclick="alert('boom!');">do not press!</button>
 </body>
 <html>
+
+<html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Empty Element Example</title>
+</head>
+<body>
+    <p>This is a paragraph with a line break<br>right here.</p>
+    <img src="example.jpg" alt="Example Image">
+</body>
+</html>
+
+<html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Standard Element Example</title>
+</head>
+<body>
+    <div>
+        <p>This is a paragraph inside a div element.</p>
+    </div>
+</body>
+</html>
+
+html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ID Selector Example</title>
+    <style>
+        #uniqueElement {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <p id="uniqueElement">This paragraph has a unique style.</p>
+    <p>This paragraph does not have the unique style.</p>
+</body>
+</html>
+
+tml
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Class Selector Example</title>
+    <style>
+        .highlight {
+            background-color: yellow;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <p class="highlight">This paragraph is highlighted.</p>
+    <p>This paragraph is not highlighted.</p>
+    <p class="highlight">This is another highlighted paragraph.</p>
+</body>
+</html>
+
+html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pseudo </title>
+    <style>
+        a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+
+        p:first-child {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <p>This is the first paragraph.</p>
+    <p>This is the second paragraph.</p>
+    <a href="#">Hover over this link</a>
+</body>
+</html>
+
+tml
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pseudo-Element Selector Example</title>
+    <style>
+        p::first-line {
+            font-weight: bold;
+            color: blue;
+        }
+
+        p::before {
+            content: "Note: ";
+            font-weight: bold;
+            color: red;
+        }
+
+
